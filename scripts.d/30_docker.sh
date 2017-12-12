@@ -3,10 +3,10 @@
 source lib.sh
 
 IMAGES=(
-    dogi/rpi-couchdb
+#    dogi/rpi-couchdb
     portainer/portainer
-    arm32v7/postgres
-    treehouses/moodle:rpi-latest
+#    arm32v7/postgres
+#    treehouses/moodle:rpi-latest
 )
 
 for image in "${IMAGES[@]}" ; do
