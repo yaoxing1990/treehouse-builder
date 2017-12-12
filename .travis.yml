@@ -14,7 +14,7 @@ install: true
 
 script: 
   - docker info
-  - rm -rf /var/lib/docker
+  - sudo rm -rf /var/lib/docker
   - docker info
   - mkdir images && ./get_ssh_keys.py && sudo ./treehouse-builder --noninteractive
 
